@@ -3,7 +3,6 @@ import TodoList from "./Todo/TodoList";
 import AddTodo from "./Todo/AddTodo";
 import Context from "./context";
 
-
 function App() {
   const [todos, setTodos] = React.useState([
     { id: 1, completed: false, title: "Купить хлеб" },
